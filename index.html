@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc">
+    <div class="display" id="display" aria-live="polite">0</div>
+    <div class="keys">
+      <button data-action="clear" class="fn">C</button>
+      <button data-action="back" class="fn">&#9003;</button>
+      <button data-op="%" class="op">%</button>
+      <button data-op="/" class="op">&divide;</button>
+
+      <button data-digit="7">7</button>
+      <button data-digit="8">8</button>
+      <button data-digit="9">9</button>
+      <button data-op="*" class="op">&times;</button>
+
+      <button data-digit="4">4</button>
+      <button data-digit="5">5</button>
+      <button data-digit="6">6</button>
+      <button data-op="-" class="op">&minus;</button>
+
+      <button data-digit="1">1</button>
+      <button data-digit="2">2</button>
+      <button data-digit="3">3</button>
+      <button data-op="+" class="op">+</button>
+
+      <button data-digit="0" class="wide">0</button>
+      <button data-action="dot">.</button>
+      <button data-action="equals" class="eq">=</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
